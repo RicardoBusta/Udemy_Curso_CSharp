@@ -11,10 +11,10 @@ namespace AB_SerializeXML {
             var stream = new StreamWriter("output.xml");
 
             var serializer = new XmlSerializer(typeof(User));
-            
+
             serializer.Serialize(stream, user);
-            
-            Console.Write("Finished serialization.");
+
+            Console.Write("Finished serialization.\n");
         }
     }
 }
