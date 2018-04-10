@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA_Library", "SerializeDeserialize\AA_Library\AA_Library.csproj", "{58CB46CE-B146-4371-A4D5-454B101570C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SerializeDeserialize", "SerializeDeserialize", "{573F9FC4-EC86-45E3-BE8C-D02B10FA96BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AB_SerializeXML", "SerializeDeserialize\AB_SerializeXML\AB_SerializeXML.csproj", "{C66571CE-93F1-44B8-BC71-EB9254EB2417}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58CB46CE-B146-4371-A4D5-454B101570C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58CB46CE-B146-4371-A4D5-454B101570C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58CB46CE-B146-4371-A4D5-454B101570C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58CB46CE-B146-4371-A4D5-454B101570C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C66571CE-93F1-44B8-BC71-EB9254EB2417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C66571CE-93F1-44B8-BC71-EB9254EB2417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C66571CE-93F1-44B8-BC71-EB9254EB2417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C66571CE-93F1-44B8-BC71-EB9254EB2417}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{58CB46CE-B146-4371-A4D5-454B101570C5} = {573F9FC4-EC86-45E3-BE8C-D02B10FA96BC}
+		{C66571CE-93F1-44B8-BC71-EB9254EB2417} = {573F9FC4-EC86-45E3-BE8C-D02B10FA96BC}
+	EndGlobalSection
+EndGlobal
