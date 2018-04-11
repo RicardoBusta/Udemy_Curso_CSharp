@@ -5,13 +5,13 @@ using AA_Library;
 
 namespace AC_DeserializeXML {
     internal class Program {
-        public static void Main(string[] args) {
+        public static void Main() {
             var serializer = new XmlSerializer(typeof(User));
 
             try {
                 var reader = new StreamReader("output.xml");
                 var user = (User) serializer.Deserialize(reader);
-                Console.Write($"{user.ToString()}\n");
+                Console.Write($"{user}\n");
             } catch (Exception e) {
                 Console.Write($"Error: {e.Message}\n");
             }
