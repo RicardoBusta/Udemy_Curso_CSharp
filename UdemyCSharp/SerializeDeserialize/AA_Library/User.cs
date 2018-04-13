@@ -1,11 +1,11 @@
 ﻿namespace AA_Library {
     public class User {
-        public string Name { get; set; }
-        public string Id { get; set; }
-        public string Email { get; set; }
+        public string Name;
+        public string Id;
+        public string Email;
 
         public override string ToString() {
-            return $"Read: Name: {Name}, E-mail: {Email}, Id: {Id}";
+            return $"House: Name: {Name}, E-mail: {Email}, Id: {Id}";
         }
     }
 }
