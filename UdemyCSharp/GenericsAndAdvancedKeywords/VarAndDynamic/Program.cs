@@ -1,12 +1,9 @@
 ﻿using System;
 using AA_Library;
+using ExtensionMethods;
 
 namespace VarAndDynamic {
-    internal static class Program {
-        private static void Print(this object o) {
-            Console.WriteLine($"({o.GetType().Name}) {o}");
-        }
-        
+    internal static class Program {       
         public static void Main(string[] args) {
             object t1 = "asd";
             object t2 = 1234;

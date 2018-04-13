@@ -48,6 +48,10 @@
       <Project>{58cb46ce-b146-4371-a4d5-454b101570c5}</Project>
       <Name>AA_Library</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ExtensionMethods\ExtensionMethods.csproj">
+      <Project>{7FDAB220-77BC-4004-A1BD-CA7E1EB0446B}</Project>
+      <Name>ExtensionMethods</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
